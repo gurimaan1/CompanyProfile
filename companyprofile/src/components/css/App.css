@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0, auto;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .first
+  {
+    margin-right:35px;
+    align-content:center;
+    text-align:center;
+  }
+
+  .h2s
+  {
+    font-size:54px;
+    margin-left:10px;
+    font-family:cursive;
+  }
+
+  .second
+  {
+    margin-top:30px;
+  }
+
+  .para1
+  {
+    font-size:25px;
+    margin-left:15px;
+  }
+  .box1{
+    width:240px;
+    height: 150px;
+    float:left;   
+    margin-right:192px; 
+    margin-top:20px;
+   
+  }
+ .box2{
+  height: 150px;
+  width:240px;
+  float:left;    
+  margin-right:192px;
+
+ }
+ .box3{
+  height: 150px;
+  width:240px;
+  float:left;     
+  margin-right:192px;
+  margin-top:-20px;
+ }
+ .homeimg{
+  height:540px;
+  float: left;
+ }
+ .homediv
+ {
+  float:left;
+  margin-right:10px;
+  margin-top:10px;
+  align-content:center;
+ }
+ .head{
+  text-align:center;
+ }
+ .para2{
+  width:250px;
+  text-align:center;
+  margin-left:80px;
+ }
+ .ourteam
+ {
+  width:250px;
+  align-content:center;
+  text-align:center;
+  margin-left:70px;
+ }
+ .ourteam1
+ {
+  width:250px;
+  align-content:center;
+  text-align:center;
+ }
+ .ourdiv2 
+ {
+  align-items:center;
+  align-content:center;
+  text-align:center;
+ }
+ .ourdiv1
+ {
+  display:grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20;
+ }
