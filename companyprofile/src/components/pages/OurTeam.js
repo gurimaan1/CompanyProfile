@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/App.css'
-
+/* Juliet Abraham: 8788943 */
 export default function OurTeam() {
     return(
         <div className='ourteammain'>
