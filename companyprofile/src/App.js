@@ -7,7 +7,6 @@ import OurTeam from './components/pages/OurTeam';
 import ContactUs from './components/pages/ContactUs';
 
 
-
 function App() {
   return (
    <>
@@ -17,6 +16,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/ourteam' exact component={OurTeam} />
         <Route path='/contactus' exact component={ContactUs} />
+        
       </Switch>
    </Router>
    </>

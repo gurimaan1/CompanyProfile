@@ -5,7 +5,7 @@ export default function ContactUs() {
         <div>
             <br/>
             <div className='first'>
-            <h2 className='h2s'>What's on your<br/> mind?</h2>
+            <h2 className='h1'>What's on your<br/> mind?</h2>
            
             <div className='second'>
                 <p className='para1'>
@@ -13,17 +13,14 @@ export default function ContactUs() {
                 </p><br/>
             </div> </div>
             <br/><br/>
-            <div>
-            <div>
-                <img className='box1' src="images/contact1.png"></img>
+            <div>  
+            <div className="flex-container">
+               <div> <img src="images/contact1.png" height={150}></img> </div>
+
+               <div>  <img src="images/contact2.png" height={150}></img> </div>
+            <div> <img src="images/contact3.png" height={150}></img> </div>
             </div>
-            <div>
-                <img className='box2' src="images/contact2.png"></img>
-            </div>
-            <div>
-                <img className='box3' src="images/contact3.png"></img>
-            </div>
-            </div>
+        </div>
         </div>
     )
 }

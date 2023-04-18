@@ -7,9 +7,10 @@
 
   .first
   {
-    margin-right:35px;
+    margin-right:0px;
     align-content:center;
     text-align:center;
+    background-color:darkgray;
   }
 
   .h2s
@@ -17,6 +18,19 @@
     font-size:54px;
     margin-left:10px;
     font-family:cursive;
+    color:white;
+
+  }
+
+  .head2
+  {
+    font-size:54px;
+    margin-left:10px;
+    font-family:cursive;
+    color:white;
+    text-align: center;
+    border-style: solid;
+    background-color:black;
   }
 
   .second
@@ -28,14 +42,21 @@
   {
     font-size:25px;
     margin-left:15px;
+    
   }
   .box1{
     width:240px;
-    height: 150px;
-    float:left;   
-    margin-right:192px; 
-    margin-top:20px;
-   
+    height: 150px;  
+  }
+  .flex-container {
+    display: flex;
+    background-color:black;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    font-size: 20px;
   }
  .box2{
   height: 150px;
@@ -52,8 +73,9 @@
   margin-top:-20px;
  }
  .homeimg{
-  height:540px;
-  float: left;
+  height:350px;
+  width: 1430px;
+  
  }
  .homediv
  {
@@ -61,14 +83,24 @@
   margin-right:10px;
   margin-top:10px;
   align-content:center;
+  background-color: #878787;;
+  width: 100%;
  }
  .head{
   text-align:center;
+  color:white;
+  font-size: 25px;
+  border-style: solid;
+  background-color:black;
  }
  .para2{
   width:250px;
-  text-align:center;
   margin-left:80px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: white;
  }
  .ourteam
  {
@@ -95,3 +127,41 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20;
  }
+ .h1 
+ {
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-size: 39px;
+    width: 100%;
+  }
+  .ourteammain
+  {
+    background-color:grey;
+  }
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+.ullist
+{
+  list-style-type: circle;
+  margin-left: 20%;
+}
