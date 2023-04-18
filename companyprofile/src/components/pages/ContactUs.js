@@ -15,10 +15,10 @@ export default function ContactUs() {
             <br/><br/>
             <div>  
             <div className="flex-container">
-               <div> <img src="images/contact1.png" height={150}></img> </div>
+               <div> <img className="contactimg" src="images/contact1.png"></img> </div>
 
-               <div>  <img src="images/contact2.png" height={150}></img> </div>
-            <div> <img src="images/contact3.png" height={150}></img> </div>
+               <div>  <img className="contactimg" src="images/contact2.png" ></img> </div>
+            <div> <img className="contactimg" src="images/contact3.png"></img> </div>
             </div>
         </div>
         </div>
